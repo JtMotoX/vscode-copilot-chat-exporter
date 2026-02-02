@@ -150,7 +150,7 @@ extract_session() {
 			printf '%s\n' "${copilot}" | sed 's/^/> /'
 			printf "\n"
 			
-			printf -- "---\n\n---\n\n---\n\n---\n\n---\n\n"
+			printf -- "---\n\n---\n\n"
 		done
 	} > "${output_file}"
 	
